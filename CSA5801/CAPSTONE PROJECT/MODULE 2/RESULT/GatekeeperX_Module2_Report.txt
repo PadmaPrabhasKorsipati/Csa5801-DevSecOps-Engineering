@@ -1,0 +1,30 @@
+====================================================
+GATEKEEPERX - MODULE 2 MODELING REPORT
+====================================================
+
+Number of Jobs: 1000 
+Total Simulation Time: 2508.86 minutes
+Arrival Rate (lambda): 0.3986 
+Average Service Time: 4.5804 
+Service Rate (mu): 0.2183 
+Utilization (rho): 1.8257 
+Queue Status: CONGESTED 
+
+GatekeeperX Priority Formula:
+GPS = 0.45(Severity) + 0.25(Risk) +  0.20(Vulnerability) + 0.10(Waiting)
+
+Priority Distribution:
+
+P1 - Critical     P2 - High   P3 - Medium      P4 - Low 
+           99           223           356           322 
+
+Security Decision Distribution:
+
+               BLOCK                 PASS PASS WITH MONITORING    WAIT / PRIORITIZE 
+                 108                  281                  402                  209 
+
+Theoretical M/M/1 Metrics:
+L  = Inf 
+Lq = Inf 
+W  = Inf minutes
+Wq = Inf minutes
