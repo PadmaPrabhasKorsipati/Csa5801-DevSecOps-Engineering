@@ -1,0 +1,17 @@
+"Metric","Value"
+"Total Jobs",1000
+"Total Simulation Time (minutes)",4580.52
+"Average Waiting Time (minutes)",1055.63
+"Minimum Waiting Time (minutes)",0
+"Maximum Waiting Time (minutes)",2068.21
+"Average Turnaround Time (minutes)",1060.21
+"Maximum Turnaround Time (minutes)",2071.66
+"Average Service Time (minutes)",4.58
+"Average Queue Length",228.92
+"Maximum Queue Length",453
+"Server Utilization (%)",100
+"Throughput (jobs/hour)",13.1
+"Blocked Jobs",108
+"Prioritized Jobs",209
+"Pass Jobs",281
+"Pass With Monitoring Jobs",402
