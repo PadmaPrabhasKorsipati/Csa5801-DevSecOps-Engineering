@@ -1,0 +1,28 @@
+====================================================
+GATEKEEPERX - MODULE 3 SIMULATION REPORT
+====================================================
+
+Simulation Type:
+Single-server priority queue with dynamic aging
+
+Total Jobs: 1000 
+Total Simulation Time: 4580.52 minutes
+Average Waiting Time: 1055.63 minutes
+Maximum Waiting Time: 2068.21 minutes
+Average Turnaround Time: 1060.21 minutes
+Average Queue Length: 228.92 
+Maximum Queue Length: 453 
+Server Utilization: 100 %
+Throughput: 13.1 jobs/hour
+
+Security Gate Results:
+     Security_Decision Number_of_Jobs
+1                BLOCK            108
+2                 PASS            281
+3 PASS WITH MONITORING            402
+4    WAIT / PRIORITIZE            209
+
+Dynamic Priority Aging Factor: 0.5 
+
+Dynamic Priority Formula:
+Dynamic Priority = Base GatekeeperX Priority +  Waiting Time × Aging Factor
