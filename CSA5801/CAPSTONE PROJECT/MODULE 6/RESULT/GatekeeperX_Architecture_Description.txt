@@ -1,0 +1,48 @@
+====================================================
+GATEKEEPERX ARCHITECTURE
+====================================================
+
+1. DEVOPS PIPELINE
+Developer Code Commit
+        ↓
+CI / Build
+        ↓
+Security Scanning
+        ↓
+GatekeeperX Security Gate
+        ↓
+Deployment Decision
+
+2. SECURITY SCANNING
+SAST - Static Application Security Testing
+DAST - Dynamic Application Security Testing
+SCA - Software Composition Analysis
+Secret Detection
+
+3. GATEKEEPERX ENGINE
+Risk Assessment
+        ↓
+Priority Calculation
+        ↓
+Intelligent Queue
+        ↓
+Dynamic Aging
+        ↓
+Security Decision
+
+4. SECURITY DECISIONS
+PASS
+WAIT / PRIORITIZE
+BLOCK
+
+5. RESEARCH MODULES
+Module 1 - Dataset Generation
+Module 2 - Modeling
+Module 3 - Simulation
+Module 4 - Results & Evaluation
+Module 5 - Comparison
+Module 6 - Architecture
+
+====================================================
+END OF ARCHITECTURE
+====================================================
