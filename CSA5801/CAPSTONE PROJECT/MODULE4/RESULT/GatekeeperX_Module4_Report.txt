@@ -1,0 +1,47 @@
+====================================================
+GATEKEEPERX - MODULE 4
+RESULTS & EVALUATION REPORT
+====================================================
+
+1. SIMULATION PERFORMANCE
+
+Total Jobs: 1000 
+Total Simulation Time: 4580.52 minutes
+Average Waiting Time: 1055.63 minutes
+Maximum Waiting Time: 2068.21 minutes
+Average Turnaround Time: 1060.21 minutes
+Average Queue Length: 229.92 
+Maximum Queue Length: 454 
+Server Utilization: 100 %
+Throughput: 13.1 jobs/hour
+
+2. SECURITY PERFORMANCE
+
+Blocked Jobs: 108 
+Prioritized Jobs: 209 
+Passed Jobs: 281 
+Pass With Monitoring: 402 
+
+3. INTELLIGENT PRIORITY ANALYSIS
+
+Average Priority: 49.26 
+Average Dynamic Priority: 98.84 
+Average Priority Increase: 49.59 
+Risk-Priority Correlation: 0.971 
+Severity-Priority Correlation: 0.972 
+
+4. EVALUATION
+
+                             Evaluation            Result
+1                       Queue Stability              PASS
+2                  Average Waiting Time NEEDS IMPROVEMENT
+3               Average Turnaround Time NEEDS IMPROVEMENT
+4 Critical Vulnerability Prioritization              PASS
+5               Risk-Priority Alignment              PASS
+
+Overall Evaluation: MODERATE PERFORMANCE 
+Evaluation Score: 60 %
+
+====================================================
+END OF REPORT
+====================================================
