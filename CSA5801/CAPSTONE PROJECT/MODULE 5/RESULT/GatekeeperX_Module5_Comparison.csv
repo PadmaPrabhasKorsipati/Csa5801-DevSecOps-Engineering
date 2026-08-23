@@ -1,0 +1,4 @@
+"Approach","Average_Waiting_Time","Maximum_Waiting_Time","Average_Turnaround_Time","Maximum_Turnaround_Time","Average_Queue_Length","Maximum_Queue_Length","Throughput_Jobs_Per_Hour","Server_Utilization_Percent","Critical_Average_Waiting","High_Average_Waiting","Overall_Rank_Score"
+"FCFS",1055.18,2068.21,1059.76,2071.66,229.7,454,13.1,100,1200.83,1015.44,5
+"Static Priority",1125.45,4478.31,1130.03,4484.11,245.48,479,13.1,100,3.54,9.86,11
+"GatekeeperX",1055.63,2068.21,1060.21,2071.66,229.92,454,13.1,100,1192.52,1012.95,8
